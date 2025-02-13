@@ -116,6 +116,11 @@ body {
 
 .six {
   position: relative;
+  visibility: hidden; /* Hidden by default */
+}
+
+.six.visible {
+  visibility: visible; /* Show when .visible is added */
 }
 
 .six img {
